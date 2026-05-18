@@ -8,6 +8,16 @@ useful engineering pattern is broader: ingest candidate work, enrich it with
 provider metadata, dispatch protocol-specific workers, apply timeouts/retries,
 and persist results for downstream analytics.
 
+## Demo Snapshot
+
+![Distributed retrieval pipeline demo](docs/assets/screenshots/retrieval-pipeline-demo.png)
+
+The demo shows a retrieval task moving from ingestion and scheduling through
+provider resolution, protocol workers, retry policy, and result emission.
+
+See [docs/demo-walkthrough.md](docs/demo-walkthrough.md) for a sequence diagram,
+flow chart, and sample result record.
+
 ## System Shape
 
 ```
