@@ -1,4 +1,4 @@
-# lynx-retrieval-bot
+# distributed-retrieval-pipeline
 
 Distributed retrieval pipeline for scheduling, resolving, executing, and
 recording retrieval tasks across heterogeneous network providers.
